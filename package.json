@@ -1,0 +1,23 @@
+{
+  "name": "opm",
+  "version": "0.0.1",
+  "description": "This is a rental Management software as a service",
+  "main": "app.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mat2567/open-property-manager.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mat2567/open-property-manager/issues"
+  },
+  "homepage": "https://github.com/mat2567/open-property-manager#readme",
+  "dependencies": {
+    "mdbreact": "^4.19.2",
+    "react": "^16.9.0"
+  }
+}
