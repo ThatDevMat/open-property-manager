@@ -1,0 +1,4 @@
+languages:
+- javascript
+src/
+  app.js
