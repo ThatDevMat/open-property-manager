@@ -1,23 +1,33 @@
 {
-  "name": "opm",
-  "version": "0.0.1",
-  "description": "This is a rental Management software as a service",
-  "main": "app.js",
-  "scripts": {
-    "test": ""
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mat2567/open-property-manager.git"
-  },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mat2567/open-property-manager/issues"
-  },
-  "homepage": "https://github.com/mat2567/open-property-manager#readme",
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "mdbreact": "^4.19.2",
-    "react": "^16.9.0"
+    "ioredis": "^4.14.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "3.1.1",
+    "redis": "^2.8.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
