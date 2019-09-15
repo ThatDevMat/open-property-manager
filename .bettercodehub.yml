@@ -1,0 +1,5 @@
+languages:
+- javascript
+src/
+  index.js
+  
